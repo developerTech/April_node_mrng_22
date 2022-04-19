@@ -1,0 +1,132 @@
+https://code.visualstudio.com/ (install)
+https://nodejs.org/en/ (install)
+https://github.com/ (create account)
+https://git-scm.com/downloads (install)
+https://github.com/Aakashdeveloper (follow)
+https://github.com/developerTech (follow))
+https://www.postman.com/downloads/ (install)
+
+Add to Chrome (https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+
+Vs Code extensions
+> TabNine
+> Eslint
+> spell Check
+> git history
+> git lens
+> vscode-icons
+
+
+NPM
+Basic NodeJS(in built)(Os,file,http)
+//////////////
+NodeJS(full Stack App) (Node-EJs-Mongo-Express)
+Third Party Api (Weather Api)
+Redis  > 6379
+RedisWithMongo
+ImageUpload
+Node-Es6(.babel)
+MongoDb Basic >27017  (local/cloud)
+Zomato App backend
+Api with NodeJS(Rest)>1
+Swagger
+Testing
+DashBoard(Crud)
+Github
+Login/Logout(JWT)
+Oauth(with github)
+--Deployment of app---
+Heroku
+Pm2
+Docker
+Nginx
+Oauth(with google)
+GraphQl API
+NodeJs with postgres
+Paytm-Payment
+Email With Node(sendgird)(https://app.sendgrid.com/)
+Chatapp
+TelegramChat
+FIREBASE
+--------NOT---------
+React/Angular
+Html/css/jquery
+
+microservice(aws lambda)
+upload to s3 bucket
+
+//////////////
+NodeJs >
+Single Thread , Async , Non Blocking I/O
+
+
+c++ + libu
+v8
+
+
+//////JSON///////
+"JavaScript Object Notation"
+"Structure to represent data"
+[
+    {
+        "name":"John",
+        "class":"Ui"
+    },
+    {
+        "name":"Ankita",
+        "class":"NodeJs"
+    }
+]
+
+//////////
+NPM > node package manager
+/////
+
+package.json
+> Entry Point to app
+> contains command like > start, test
+> contains all package we use
+> meta data (description, version ,name)
+
+//////Step to generate package.json
+** NodeJs must be install in system
+> go inside the folder using cmd/terminal
+> npm init
+> Answer all question
+> type "yes"
+
+//////Step to install package
+** NodeJs must be install in system
+> go inside the folder using cmd/terminal
+> npm i package-name
+
+///es5
+var a = 10
+var b = "my age is "+a 
+"my age is 10"
+
+///Es6
+var a = 10
+var b = `my age is ${a}`
+
+////////Global package////
+Only Package that is require to 
+run app (require before app start)
+will go global
+
+////////////
+#window
+> open cmd as admin
+> npm i -g packageName
+
+#mac/linux
+> open terminal
+> sudo npm i -g packageName
+
+//////////Nodemon////
+> automatically restart the server when any change detected
+> npm i -g nodemon
+
+////////dev dependency/package////
+> go inside the folder
+> npm i packageName --save-dev
