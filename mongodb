@@ -1,0 +1,31 @@
+local
+# window
+> Download https://www.mongodb.com/try/download/community
+> in c drive make folder by name of data (c:/data)
+> inside data make folder by name of db (c:/data/db)
+
+Default Port > 27017
+
+Start Server
+> open cmd
+> navigate to bin folder  (c:/programFile/mongodb/server/5.2/bin)
+> mongod
+
+Start Client
+> open cmd
+> navigate to bin folder  (c:/programFile/mongodb/server/5.2/bin)
+> mongo
+
+
+#mac
+> Download https://www.mongodb.com/try/download/community
+> open terminal on root>  mkdir data/db
+
+
+Start Server
+> open terminal
+> mongod --dbpath data/db
+
+Start Client
+> open terminal
+> mongo

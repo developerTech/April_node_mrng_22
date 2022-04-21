@@ -130,3 +130,12 @@ will go global
 ////////dev dependency/package////
 > go inside the folder
 > npm i packageName --save-dev
+
+/////
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+//////

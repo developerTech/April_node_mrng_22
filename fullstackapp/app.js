@@ -5,9 +5,14 @@ let dotenv = require('dotenv');
 dotenv.config()
 let port = process.env.PORT || 9700;
 let morgan = require('morgan');
-let categoryRouter = require('./src/controller/categoryRoute')
-let productRouter = require('./src/controller/productsRoute');
+let routes = [
+    {path:'/', key:'Home'},
+    {path:'/category', key:'Category'},
+    {path:'/products', key:'Products'}
+]
 
+let categoryRouter = require('./src/controller/categoryRoute')(routes);
+let productRouter = require('./src/controller/productsRoute')(routes);
 //
 app.use(morgan('short',{stream: fs.createWriteStream('./app.logs')}))
 // static file path
@@ -19,7 +24,7 @@ app.set('view engine','ejs')
 
 //default Route
 app.get('/',function(req,res){
-    res.render('index')
+    res.render('index',{title:'Home Page',routes:routes})
 })
 
 app.use('/category', categoryRouter)
