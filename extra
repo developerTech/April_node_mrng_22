@@ -19,19 +19,21 @@ Vs Code extensions
 
 NPM
 Basic NodeJS(in built)(Os,file,http)
-//////////////
 NodeJS(full Stack App) (Node-EJs-Mongo-Express)
+//////////////
 Third Party Api (Weather Api)
 Redis  > 6379
 RedisWithMongo
 ImageUpload
 Node-Es6(.babel)
 MongoDb Basic >27017  (local/cloud)
+
 Zomato App backend
 Api with NodeJS(Rest)>1
 Swagger
 Testing
 DashBoard(Crud)
+
 Github
 Login/Logout(JWT)
 Oauth(with github)
@@ -139,3 +141,13 @@ function add(a,b){
 add(1,2)
 
 //////
+
+params
+> pass after /
+> We need to define the params in url
+> Use to send very small data (id)
+
+queryparams
+> pass after ?
+> No Need to Define any where
+> Can use for sending multiple values

@@ -91,3 +91,6 @@ ObjectId
     > 4 byte > timestamp
     > 5 byte > Random Number
     > 3 byte > incrementing counter
+
+// find with condition
+db.products.find({Brand:'Gucci',"Color":"white"})
